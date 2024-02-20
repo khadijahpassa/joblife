@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../public/output.css">
+    <!-- Remix Icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <title>Sign Up - Joblife</title>
+</head>
+<body>
+    <section class="section bg-signUp h-screen bg-cover bg-no-repeat overflow-hidden">
+        <div class="container mx-auto ">
+            <h2 class="h2 text-center text-white mb-12">Create New Account</h2>
+            <div class="form-in p-12 w-fit mx-auto rounded-xl backdrop-blur-[10px] bg-white/60">
+                <form class="max-w-sm mx-auto">
+                    <div class="mb-5">
+                    <label for="email" class="block mb-2 text-sm font-medium text-primary ">Your email</label>
+                    <input type="email" id="email" class="input w-full" placeholder="name@example.com" required />
+                    </div>
+                    <div class="mb-5">
+                    <label for="password" class="block mb-2 text-sm font-medium  text-primary">Your password</label>
+                    <input type="password" id="password" class="input w-full" required />
+                    </div>
+                    <div class="mb-5">
+                    <label for="repeat-password" class="block mb-2 text-sm font-medium  text-primary">Repeat password</label>
+                    <input type="password" id="repeat-password" class="input w-full" required />
+                    </div>
+                    <div class="flex items-start mb-5">
+                    <div class="flex items-center h-5">
+                        <input id="terms" type="checkbox" value="" class="w-4 h-4 border border-accent rounded bg-gray-50 focus:ring-2 focus:ring-accent text-accent" required />
+                    </div>
+                    <label for="terms" class="ms-2 text-sm font-medium w-[300px] text-primary">I agree with the <a href="#" class="text-accent hover:underline">terms and conditions</a></label>
+                    </div>
+                    <a href="index.html">
+                        <button type="submit" class="focus:ring-2 focus:outline-none focus:ring-accent font-medium rounded-lg text-sm px-5 py-2.5 text-center
+                        btn btn-lg btn-accent mx-auto mb-4">Register new account</button>
+                    </a>
+                    <label class="text-sm font-medium block text-center text-secondary">Have an account? <a href="login.html" class="text-accent hover:underline">Log In</a></label>
+
+                </form>
+            </div>
+        </div>
+    </section>
+  
+</body>
+</html>
